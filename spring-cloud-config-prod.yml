@@ -2,7 +2,10 @@ server:
   port: 8089
 
 spring:
+  security:
+    user:
+      name: '{cipher}AQAnbujit6gxA+TsXUuhNYOiho2Vc+sZT0JIC6FbKB479Pe6ScV2MmYeP+EQ+446wPS2LSr2Z/q+U/Fy350T5KuZWH6QBoTkcONINAECVK/Jfq0ivjYDTS/2hg5kAavztOuG1NUdxw3fel1/011FuzGCWiKjjqFAVhS1gF1kJzbuM2o3UZWBEQ/KoHaSapPUBQF0ZR6+Z/RBv/MNtUTFOy91vPpnEDbai+iMzuCUmdn+zO4mCh7fXLz/M3GH+v+PiKs0u0mhSIIzKWzI1iCW3XIUEydsg1l/v0BEh3r8yPU6kUAA7EVUII9MMZVJ48g/JE9Sqq0fyBt1i6gqW+vLXvdeTHVXCH5Nq8IeQ2jcY65ade5GxyHh9KGhImd3I5mxLYw='
+      password: '{cipher}AQBiIE5aZIijTOtGm5zyF8s3RTmHouWI+zasYdmAP1+rSI6Qvvr82HP7QLwkC0BJhF2q1hl6F579fY7RZbZ5y5gfDHKOZ1jfVkn7rfIKCOwDrtFQVISJca+yobRFngHYik8OgApr6a4ja4ChX4BvF8v/nk1hZQxDtVCAbbs5e/lpkzWSUILTdkk4ZroTEa6GH1mif/q/nSbDsI6J9z0CJWtW4YmAhVtPjvitvXuzLB6gemOKNELDZLWF8Y/ES4izZjepcehPF9OYt8ZYked7Uxovqi1PoIUdHRR3PfQGUnnfWY7bR3F0FQ7LRYEJbk4KoFWWYwGinZ4t/mtpPVz3B1EhoJodY/GKXpVnE9hkPLYJuaF40AcdTUxo6On8EHzhVA0='
   profiles:
     active:
       - prod
-   
