@@ -2,7 +2,8 @@ server:
   port: 8089
 
 spring:
-  profiles:
-    active: dev
   application:
     name: scd-service-server
+  profiles:
+    active:
+      - dev
