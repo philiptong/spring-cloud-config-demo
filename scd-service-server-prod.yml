@@ -3,7 +3,7 @@ server:
 
 spring:
   profiles:
-    active: dev
+    active: prod
   application:
     name: scd-service-server
   messages:
@@ -32,7 +32,7 @@ management:
 
 eureka:
   client:
-    enabled: false
+    enabled: true
     serviceUrl:
       defaultZone: '{cipher}AQA2oKdLUOw0QNz+0VyZ4ppcKJPEjugAgTcxYrxKlkmPanJWuvwZA0X+fqk68qDlPaFCf5mS81KnWxQn18b505SCvBG2/Utd19n2XzQj44uav+cXTQpYZVWazTz3qMOVCH0zb/yF8J8g37P6AJ6btYbw6L0+wxUC6hh3FFOUlIMcupnpqUxkBZlu3Vag28UUkwSsHRmHxVB/EuYaqesfYcaAatezMTQn/qn0mIBcrJva22ilvcKbSGuAK9yz4zQE/W0CsEc660TWHex/15tGdvkcN1QlGc5AmRTQnZtXG+otLcVpdO/Qub74h6QUWF0G6JY3iF8t0HWsiUHtfmmSgbD2k4XISmKl0A/3aVrkBQWHM/XD4RvLeGIPLK8E11UYB4C4QSc7NsEdHAw25/momlE81OV0YwN8CF4PKBYuRZks7Q=='
   instance:
