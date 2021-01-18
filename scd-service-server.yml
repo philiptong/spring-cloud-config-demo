@@ -1,0 +1,37 @@
+server:
+  port: 8089
+
+spring:
+  application:
+    name: scd-service-server
+  messages:
+    basename: i18n/messages
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          '[batch_size]': 30
+          '[time_zone]': UTC
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          [
+            'configprops',
+            'env',
+            'health',
+            'info',
+            'threaddump',
+            'logfile',
+            'prometheus',
+            'heapdump',
+          ]
+  endpoint:
+    health:
+      show-details: always
+    prometheus:
+      enabled: true
