@@ -6,8 +6,6 @@ spring:
     active: prod
   application:
     name: scd-service-server
-  messages:
-    basename: i18n/messages
 
 management:
   endpoints:
