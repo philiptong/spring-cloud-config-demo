@@ -29,6 +29,6 @@ management:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://${eureka.server.user.name}:${eureka.server.user.password}@localhost:8761/eureka/
+      defaultZone: '{cipher}AQA2oKdLUOw0QNz+0VyZ4ppcKJPEjugAgTcxYrxKlkmPanJWuvwZA0X+fqk68qDlPaFCf5mS81KnWxQn18b505SCvBG2/Utd19n2XzQj44uav+cXTQpYZVWazTz3qMOVCH0zb/yF8J8g37P6AJ6btYbw6L0+wxUC6hh3FFOUlIMcupnpqUxkBZlu3Vag28UUkwSsHRmHxVB/EuYaqesfYcaAatezMTQn/qn0mIBcrJva22ilvcKbSGuAK9yz4zQE/W0CsEc660TWHex/15tGdvkcN1QlGc5AmRTQnZtXG+otLcVpdO/Qub74h6QUWF0G6JY3iF8t0HWsiUHtfmmSgbD2k4XISmKl0A/3aVrkBQWHM/XD4RvLeGIPLK8E11UYB4C4QSc7NsEdHAw25/momlE81OV0YwN8CF4PKBYuRZks7Q=='
   instance:
     instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
